@@ -46,7 +46,7 @@ cd <project-repo>
 - Скопируйте файл wp-config-sample.php в папке WordPress и назовите его wp-config.php.
 - Отредактируйте его с правильными параметрами соединения с базой данных:
 
-define('DB_NAME', 'wp_project_db'); // Название базы данных
-define('DB_USER', 'root');          // Имя пользователя MySQL
-define('DB_PASSWORD', '');          // Пароль (оставьте пустым, если не задан)
-define('DB_HOST', 'localhost');     // Хост MySQL
+- define('DB_NAME', 'wp_project_db'); // Название базы данных
+- define('DB_USER', 'root');          // Имя пользователя MySQL
+- define('DB_PASSWORD', '');          // Пароль (оставьте пустым, если не задан)
+- define('DB_HOST', 'localhost');     // Хост MySQL
